@@ -81,5 +81,5 @@ float factorial(float numeroIngresado){
 		factorial = i * factorial;
 	}
 
-	return factorial;
+	return factorial; // factorial = (n)*(n-1)*(n-2)*(n-3).......
 }

@@ -55,3 +55,6 @@ float multiplicacion(float, float);
 
 float factorial(float);
 
+
+// documento las funciones para que cualquiera pueda entender su significado y su utilización
+
