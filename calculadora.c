@@ -1,9 +1,11 @@
 # include <stdlib.h>
 #include  <stdio.h>
+
+// incluyo biblioteca propia
 #include "calculos.h"
 
 int main() {
-	int numero1, numero2;
+	float numero1, numero2;
 	char respuesta;
 
 	do{
@@ -16,11 +18,19 @@ int main() {
 		scanf("%d", &numero2);
 
 
-		printf("\nLa suma de los números es: %d", suma(numero1, numero2));
-		printf("\nLa resta de los números es: %d", resta(numero1, numero2));
+		printf("\nLa suma de los numeros es: %.2f", suma(numero1, numero2));
+		printf("\nLa resta de los numeros es: %.2f", resta(numero1, numero2));
+		printf("\nLa division de los numeros es: %.2f", division(numero1, numero2));
+		printf("\nLa multiplicacion de los numeros es: %.2f", multiplicacion(numero1, numero2));
+		printf("\nEl factorial del primer numero es: %d", factorial(numero1));
+		printf("\nEl factorial del segundo numero es: %d", factorial(numero2));
+
 
 	 printf("\nQuiere realizar la misma operación con números distintos?: (s/n)");
+	 __fpurge(stdin);
 	 scanf("%c",&respuesta);
+	 respuesta = tolower(respuesta);
+
 	}while(respuesta == 's');
 
 
