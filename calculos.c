@@ -35,7 +35,7 @@ float division(float numeroIngresado1, float numeroIngresado2) {
 
 	} else {
 
-		resultadoDivision = numeroIngresado1 * numeroIngresado2;
+		resultadoDivision = numeroIngresado1 / numeroIngresado2;
 
 	}
 
@@ -66,7 +66,7 @@ float multiplicacion(float numeroIngresado1, float numeroIngresado2) {
 
 //factorial
 
-int factorial(float numeroIngresado){
+float factorial(float numeroIngresado){
 
 	if(numeroIngresado < 0){
 

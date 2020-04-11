@@ -47,12 +47,11 @@ float division(float, float);
 float multiplicacion(float, float);
 
 /*
-* \brief Calcula el factorial de dos números
-* \param int primer número
-* \param int segundo número
-* \return el resultado de los factoriales
+* \brief Calcula el factorial de un número
+* \param int número ingresado
+* \return el resultado de del factorial
 *
 */
 
-float factorial(int, int);
+float factorial(float);
 
