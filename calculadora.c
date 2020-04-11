@@ -16,6 +16,8 @@ int main() {
 		scanf("%d", &numero2);
 
 
+		printf("\nLa suma de los números es: %d", suma(numero1, numero2));
+		printf("\nLa resta de los números es: %d", resta(numero1, numero2));
 
 	 printf("\nQuiere realizar la misma operación con números distintos?: (s/n)");
 	 scanf("%c",&respuesta);
