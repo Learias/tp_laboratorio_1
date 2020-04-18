@@ -7,7 +7,7 @@
 */
 
 
-float suma(float, float);
+float Suma(float, float);
 
 
 
@@ -21,7 +21,7 @@ float suma(float, float);
 
 
 
-float resta(float, float);
+float Resta(float, float);
 
 
 
@@ -33,7 +33,7 @@ float resta(float, float);
 *
 */
 
-float division(float, float);
+float Division(float, float);
 
 
 /*
@@ -44,7 +44,7 @@ float division(float, float);
 *
 */
 
-float multiplicacion(float, float);
+float Multiplicacion(float, float);
 
 /*
 * \brief Calcula el factorial de un número
@@ -53,7 +53,7 @@ float multiplicacion(float, float);
 *
 */
 
-float factorial(float);
+float Factorial(float);
 
 
 // documento las funciones para que cualquiera pueda entender su significado y su utilización

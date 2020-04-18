@@ -1,72 +1,72 @@
 
 // suma
 
-float suma(float numeroIngresado1, float numeroIngresado2) {
+float Suma(float numeroIngresado1, float numeroIngresado2) {
     
-    float resultadoSuma;
+    float resultado;
     
-    resultadoSuma = numeroIngresado1 + numeroIngresado2;
+    resultado = numeroIngresado1 + numeroIngresado2;
     
-    return resultadoSuma;
+    return resultado;
 }
 
 
 // resta
 
-float resta(float numeroIngresado1, float numeroIngresado2) {
+float Resta(float numeroIngresado1, float numeroIngresado2) {
 
-	float resultadoResta;
+	float resultado;
 
-	resultadoResta = numeroIngresado1 - numeroIngresado2;
+	resultado = numeroIngresado1 - numeroIngresado2;
 
-	return resultadoResta;
+	return resultado;
 
 }
 
 //división
 
-float division(float numeroIngresado1, float numeroIngresado2) {
+float Division(float numeroIngresado1, float numeroIngresado2) {
 
-	float resultadoDivision;
+	float resultado;
 
 	if(numeroIngresado2 == 0){
 
-		resultadoDivision = 0;
+		resultado = 0;
 
 	} else {
 
-		resultadoDivision = numeroIngresado1 / numeroIngresado2;
+		resultado = numeroIngresado1 / numeroIngresado2;
 
 	}
 
-	return resultadoDivision;
+	return resultado;
 }
 
 
 // multiplicación
 
-float multiplicacion(float numeroIngresado1, float numeroIngresado2) {
+float Multiplicacion(float numeroIngresado1, float numeroIngresado2) {
 
-	float resultadoMultiplicacion;
+	float resultado;
 
 	if(numeroIngresado2 == 0){
 
-		resultadoMultiplicacion = 0;
+		resultado = 0;
 
 	} else {
 
-		resultadoMultiplicacion = numeroIngresado1 * numeroIngresado2;
+		resultado = numeroIngresado1 * numeroIngresado2;
 
 	}
 
-	return resultadoMultiplicacion;
+	return resultado;
 
 }
 
 
 //factorial
 
-float factorial(float numeroIngresado){
+float Factorial(float numeroIngresado){
 
 	if(numeroIngresado < 0){
 
