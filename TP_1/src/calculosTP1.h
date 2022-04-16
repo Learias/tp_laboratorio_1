@@ -1,4 +1,9 @@
-
+/*
+ * calculosTP1.h
+ *
+ *  Created on: 14 abr. 2022
+ *      Author: WIN10
+ */
 
 #ifndef CALCULOSTP1_H_
 #define CALCULOSTP1_H_
@@ -15,7 +20,6 @@
 
 
 float Suma(float, float);
-
 
 
 /*
@@ -75,6 +79,7 @@ float Factorial(float);
 
 
 float SacarPromedio(float, float);
+
 
 
 #endif /* CALCULOSTP1_H_ */

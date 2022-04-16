@@ -1,3 +1,11 @@
+/*
+ * calculosTP1.c
+ *
+ *  Created on: 14 abr. 2022
+ *      Author: WIN10
+ */
+
+
 #include "calculosTP1.h"
 // suma
 

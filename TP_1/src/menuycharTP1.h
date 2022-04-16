@@ -8,37 +8,14 @@
 
 /*
 * \brief Muestra el menú
+* \param char* mensaje permite ingresar el mensaje deseado
 * \param int opcion
 * \return valor de opcion ingresado por el usuario
 *
 */
 
-int ShowMenu(int opcion);
+int ShowMenu(char* mensaje, int opcion);
 
-
-/*
-* \brief pide los datos de los kilometros de vuelo
-* \return cantididad de kilometros
-*
-*/
-
-float KilometrosDeVuelo();
-
-/*
-* \brief pide el valor del vuelo de Aerolineas Argentinas y lo valida
-* \return valor del vuelo de Aerolineas
-*
-*/
-
-float ValorVueloAerolineas();
-
-/*
-* \brief el valor del vuelo de Latam y lo valida
-* \return valor del vuelo de Latam
-*
-*/
-
-float ValorVueloLatam();
 
 /*
 * \brief Calcula el valor del precio del vuelo más el descuento por pago en debito
@@ -81,19 +58,29 @@ float DiferenciaValorVuelo(float valorUno, float valorDos);
 
 
 /*
-* \brief Muestra mensaje de despedida
+* \brief Recibe una cadena de caracteres
 * \return Mensaje
 *
 */
-void MensajeDespedida();
+void DarMensaje(char* mensaje);
+
+
 
 /*
-* \brief Muestra mensaje de bienvenida
-* \return Mensaje
+* \brief valida todos los datos ingresados para luego almacenar el valor flotante en la posición de memoria que le pasamos
+* \param char* mensaje, pedimos los datos al usuario
+* \param int reintentos, indicamos cantidad de reintentos para pedir los datos
+* \param int minimo, número mínimo que puede ingresar el usuario
+* \param int maximo, número maximo que puede ingresar el usuario
+* \param char* mensajeError, indicamos que el dato no fue registrado exitosamente
+* \param float* pNumeroingresado, pasamos la posición de memoria de la variable para luego almacenar el dato
+* \return -1 si funciona, 0 si no funciona
 *
 */
-void MensajeBienvenida();
+
+int getFloat(char mensaje[], int reintentos, int minimo, int maximo, char mensajeError[], float *pNumeroingresado);
 
 
+void mostrarResultados(float valor1, float valor2, float valor3, float valor4, float valor5, float valor6, float valor7, float valor8, float valor9,float valor10, float valor11, float valor12);
 
 #endif /* MENUYCHARTP1_H_ */
